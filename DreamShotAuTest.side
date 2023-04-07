@@ -1,0 +1,442 @@
+{
+  "id": "3a776ecd-d587-4982-a87f-a0e143db0e40",
+  "version": "2.0",
+  "name": "DreamShotAuTests",
+  "url": "https://mind-wend-913065.framer.app/",
+  "tests": [{
+    "id": "8cd0e756-71dc-4780-b2b1-0bd26dde8c0e",
+    "name": "Pricing",
+    "commands": [{
+      "id": "4b46fcef-8cb5-4c3d-a177-9061c25237b9",
+      "comment": "",
+      "command": "open",
+      "target": "/pricing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ce24425-3d75-4561-b098-f652daa62162",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9be58bbe-1ed0-426d-b4d8-1349110b41bc",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "xpath=//span[contains(.,'$15/mo')]",
+      "targets": [
+        ["css=.framer-56v206-container .framer-5fq1xp > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div[5]/div/div/div/div[3]/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$15/mo')]", "xpath:innerText"]
+      ],
+      "value": "$"
+    }]
+  }, {
+    "id": "cee8d695-ba9c-4644-a757-30319b6f56ac",
+    "name": "FAQ section",
+    "commands": [{
+      "id": "f47412b8-dd9e-4ad3-9994-5a9c1aa10a83",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/pricing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ba8e149-f1a6-4010-b1ab-363c41ad0a34",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e31d65a-c2fe-4093-b9e8-70ae14099bf7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a554bd4b-132b-4f95-899b-8f403de633ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-1im4qxt-container line:nth-child(2)",
+      "targets": [
+        ["css=.framer-1im4qxt-container line:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf41f4e-d685-471e-9a51-992b1e08dd36",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'How are paid plans billed?')]",
+      "targets": [
+        ["css=.framer-1im4qxt-container .framer-8l13dv span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div/div/div/div/div/h3/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'How are paid plans billed?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33375064-bc9c-4fcb-8dfd-d1907739a8d3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Do you accept Paypal?')]",
+      "targets": [
+        ["css=.framer-u1f8nc-container .framer-8l13dv span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div[2]/div/div/div/div/h3/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Do you accept Paypal?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da7e996e-8a9f-405d-8784-5f0f5c09c353",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'How do I pay?')]",
+      "targets": [
+        ["css=.framer-112ld1l-container .framer-8l13dv span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div[3]/div/div/div/div/h3/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'How do I pay?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d26a7645-a853-451b-b090-5d225fa2a6db",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Can I download the content?')]",
+      "targets": [
+        ["css=.framer-r7r0pv-container .framer-8l13dv span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div[4]/div/div/div/div/h3/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Can I download the content?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f41fa4-9904-4fee-bd4b-24bef9d206c3",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "92849ad8-82eb-42c2-ae1f-a356a6c9b219",
+    "name": "Visit button",
+    "commands": [{
+      "id": "715aadbb-868b-45a3-813a-14a77de13442",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ec2ccf4-a0ab-4992-ade3-06ffd1090970",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20b546c1-e006-469d-89bf-ed8cb9142721",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-1t1zqa8 > .framer-text > .framer-text",
+      "targets": [
+        ["css=.framer-1t1zqa8 > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div/div[2]/div[3]/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68086fc3-4c17-46f6-916d-0aea747a50ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-1w9oj9t",
+      "targets": [
+        ["css=.framer-1w9oj9t", "css:finder"],
+        ["xpath=//div[@name='Button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f18a7060-f842-4406-ba97-4788cbea1e26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-7j8ixb > .framer-text > .framer-text",
+      "targets": [
+        ["css=.framer-7j8ixb > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[3]/div[2]/div[3]/div[3]/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3484cf-a481-4b3f-97b2-0e91217c4914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-i8q5ap > .framer-text > .framer-text",
+      "targets": [
+        ["css=.framer-i8q5ap > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[3]/div[3]/div[3]/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[3]/div/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65e9a2f0-6459-4db4-a314-f991f7bd4cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-y68r4o > .framer-text > .framer-text",
+      "targets": [
+        ["css=.framer-y68r4o > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[2]/div[2]/div[2]/div[3]/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[3]/div/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a32fdaee-b5ce-44a8-8073-f5da09e94ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-nf78sr > .framer-text > .framer-text",
+      "targets": [
+        ["css=.framer-nf78sr > .framer-text > .framer-text", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[4]/div[3]/div[4]/div[2]/div[3]/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[3]/div/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "40058244-5c1b-405b-9354-a7c7c2d33912",
+    "name": "SignButton",
+    "commands": [{
+      "id": "1f23fa5d-0632-4f0e-a69e-4db0009baf42",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8ddcce8-5c0d-4bd5-872b-c8001aba2ebb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33b48e5f-2b18-42be-a6c4-b1d7c4806782",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > input",
+      "targets": [
+        ["css=div:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Sign Up']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div[9]/div/div/div/div[2]/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "038eb1aa-301a-447d-80d4-6b8e4b470409",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div:nth-child(3) > input",
+      "targets": [],
+      "value": "rgb(255, 82, 79)"
+    }]
+  }, {
+    "id": "c09a359f-52da-4d56-b19a-13b405fec204",
+    "name": "Blurred Background",
+    "commands": [{
+      "id": "56759a75-cf34-4dcd-a27e-016f010045d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fafca689-03de-47a1-985e-87d1a39cd902",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8755167c-eec0-48fe-9137-d66e71a1a99a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-14g223s span",
+      "targets": [
+        ["css=.framer-14g223s span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div[2]/div[4]/div/div/div/div[2]/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b49479-581f-4314-87fd-ab7d73e77ea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-15fwyui",
+      "targets": [
+        ["css=.framer-15fwyui", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div[2]/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35efbe0f-5583-4e0a-a208-c725659381d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.framer-14g223s span",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5ac362b7-b3a9-441d-bc83-4fe3a9199650",
+    "name": "Updates Button",
+    "commands": [{
+      "id": "6b019829-4ed8-4a28-b4be-78ca2683f725",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/updates",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff53757d-0c49-4612-86e8-64cda3bee3a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aef7f28e-6250-4be3-8ece-9f1b5861fbfc",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5c490cd-8d7f-49a5-a96f-dc276f030512",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.undefined",
+      "targets": [],
+      "value": "class=\"framer-1892sln undefined update-nav-button\""
+    }]
+  }, {
+    "id": "4bc7fbd6-328d-4301-8464-646612f64b8c",
+    "name": "Mobile version",
+    "commands": [{
+      "id": "07cb0091-935b-4398-908f-e6e3b5460ac3",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc2ef118-2439-467b-b1eb-1bc63e7ed6fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "400x650",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db459687-fc65-40e6-a4be-a8883f0ea501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-1e3wrid",
+      "targets": [
+        ["css=.framer-1e3wrid", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f680f3f-dd3a-409c-9b7b-f6a328fcd43b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-10p8sz7 span",
+      "targets": [
+        ["css=.framer-10p8sz7 span", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/p/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ddfc2d1-59ba-430a-baf9-fdf08006f000",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.framer-15y7aei",
+      "targets": [],
+      "value": "\"column\""
+    }]
+  }, {
+    "id": "a0eb7cf2-2bcb-4c5f-99ba-385464079e5a",
+    "name": "3D Animation",
+    "commands": [{
+      "id": "2a8e42e4-a90c-4168-9c7b-7e74bf8f7774",
+      "comment": "",
+      "command": "open",
+      "target": "https://mind-wend-913065.framer.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0de560a0-62fd-427b-af7b-722e1ada2492",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fd46021-64b3-482b-8a46-0ae70be13afe",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.framer-xattrb",
+      "targets": [
+        ["css=.framer-xattrb", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b16968d9-b576-4e81-8f4f-a1486e47cc56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-yvc6S",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d99250d-d55e-462e-a7b0-da8b90af71e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.framer-8nn08p",
+      "targets": [
+        ["id=canvas3d", "id"],
+        ["css=#canvas3d", "css:finder"],
+        ["xpath=//canvas[@id='canvas3d']", "xpath:attributes"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c7ab164-ae21-4d2a-be3f-088087291272",
+    "name": "DreamShotTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8cd0e756-71dc-4780-b2b1-0bd26dde8c0e"]
+  }],
+  "urls": ["https://mind-wend-913065.framer.app/"],
+  "plugins": []
+}
